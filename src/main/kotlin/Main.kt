@@ -1,15 +1,14 @@
 fun main() {
     val commission = 0.75
-    val minimumAmount = 3500
+    val amount = 3500
 
-    val amount = 4500 //сумма в копейках
+    val sum = 1500 //сумма в копейках
 
-    if (amount > minimumAmount) {
-        var result = amount / 100 * commission
-        println("Сумма комиссии ")
-        println(result)
+    if (sum > amount) {
+        var result = sum / 100 * commission
+        println("Размер комиссии $result")
     } else {
-        println("Минимальная сумма перевода : 3500 копеек ")
+        println("Размер комиссии $amount")
     }
 
 }
